@@ -1,5 +1,7 @@
 {
   "private": true,
+  "name": "vuetify",
+  "version": "2.7.1",
   "workspaces": [
     "packages/*"
   ],
@@ -12,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuetifyjs/vuetify.git"
+    "url": "git+https://github.com/SeteMares/vuetify.git"
   },
   "scripts": {
     "dev": "node scripts/dev.js",
@@ -27,7 +29,7 @@
     "changelog": "conventional-changelog -u -p vuetify"
   },
   "engines": {
-    "node": ">=12 <18",
+    "node": ">=14",
     "yarn": "^1.19"
   },
   "devDependencies": {
@@ -90,6 +92,7 @@
     "webpack-merge": "^4.2.1"
   },
   "resolutions": {
-    "workbox-webpack-plugin": "^5.1.3"
+    "workbox-webpack-plugin": "^5.1.3",
+    "@achrinza/node-ipc": "10.1.9"
   }
 }
